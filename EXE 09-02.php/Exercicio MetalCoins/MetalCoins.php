@@ -48,6 +48,8 @@
     $UsuarioC__set('email','JoãoLindo@gmail.com');
     $UsuarioC__set('senha','123456');
 
+    echo '<br>';
+
     $UsuarioA = new $UsuarioA();
     $UsuarioC__set('nome','Augusto');
     $UsuarioC__set('email','Augusto12@gmail.com');
