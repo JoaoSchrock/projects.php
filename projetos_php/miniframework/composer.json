@@ -1,0 +1,19 @@
+{
+
+    "name": "miniframework", 
+    "require":{
+        "php": ">=0.7"
+    },
+    "authors":[
+        {"name": "Joao Schrock", 
+    "email": "JoaoSchrock@gmail.com"
+}
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "vendor/MF"
+        }
+    }
+
+}
