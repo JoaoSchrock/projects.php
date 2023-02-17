@@ -8,8 +8,9 @@
 
 
 # Instalacao composer:
-
+~~~
 https://getcomposer.org/download/
+~~~
 --------------------------
 
 1 - abrir a pasta que deseja para instalacao prompt de comando: 
