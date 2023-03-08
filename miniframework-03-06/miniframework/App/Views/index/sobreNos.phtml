@@ -1,0 +1,9 @@
+<h1>Sobre Nós</h1>
+<br>
+<?php
+   
+    foreach($this->view->dados as $key => $infos){
+       echo ' <h1> '. $infos['id'] . $infos['titulo']. '</h1>'.$infos['descricao'];
+       echo '<br>';
+    }
+?>

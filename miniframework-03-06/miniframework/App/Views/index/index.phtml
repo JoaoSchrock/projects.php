@@ -1,0 +1,8 @@
+<h1>Index</h1>
+<br>
+<?php
+    foreach($this->view->dados as $key => $produtos){
+       echo $produtos['titulo']. ' - '.$produtos['descricao'];
+       echo '<br>';
+    }
+?>
