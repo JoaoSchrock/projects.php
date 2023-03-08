@@ -1,0 +1,16 @@
+{
+    "name": "miniframework",
+    "require":{
+        "php": ">=7.0"
+    },
+    "authors":[
+        {"name":"Ramon Nascimento",
+    "email": "ramon.nascimento@docente.senai.br"}
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "App/",
+            "MF\\" : "vendor/MF/"
+        }
+    } 
+}
